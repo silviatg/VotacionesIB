@@ -1,0 +1,264 @@
+/* CSS Document */
+
+h1{
+	margin-top: 0px;
+}
+
+h3{
+	margin-top: 0px;
+	
+}
+
+.page-header{
+	padding-bottom: 1px;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+}
+.tamano_medio{
+	width: 400px;	
+}
+.navbar {
+margin-bottom: 0px;
+}.pie_demokratia1 {
+	float: left;
+	width: 350px;
+}
+.pie_demokratia2 {
+	float: right;
+	width: 400px;
+}
+.pie_demokratia {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	height: 60px;
+	padding: 10px;
+	margin-right: 12px;
+	margin-bottom: 10px;
+	margin-left: 12px;
+}
+.pie_demokratia2 a img {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: 0;
+	border-right-style: 0;
+	border-bottom-style: 0;
+	border-left-style: 0;
+}
+.derecha{
+	text-align: right;
+	float: right;
+}
+
+
+
+#ayuda_admin .modal-dialog{
+	width: 800px; /* SET THE WIDTH OF THE MODAL */
+}
+
+#ayuda_admin .modal-dialog img{
+	float: left;	
+}
+.caja_crop{
+	margin: 15px;	
+}
+
+.caja_de_display{
+	padding: 10px;
+	border: 1px solid #999;
+	
+}
+
+.caja_de_display_b{
+	border: 1px solid #999;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;	
+}
+/*cajas de resultados de las votaciones para presentar los graficos*/
+
+#donut_resultado{
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+#tabla_resultado{
+	height: 200px;
+	width: 450px;
+	float: right;
+}
+
+.resultadosDonut{
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+.resultadosGrafica{
+	height: 200px;
+	width: 450px;
+	float: right;
+}
+
+/*
+	E S T I L O S    VOTACION
+*/	
+ .capasexo{
+	width: 100%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	margin: 5px;
+	padding: 5px;
+	text-align: left;
+	   }
+.capam{
+	background-color: #C69;
+	   }
+.capah{
+	background-color: #6C0;
+	   }
+.capan{
+	background-color: #FF6;
+	   }
+.contenedor{
+		/*width:700px;*/
+	   }
+.tabla{
+		float:left;
+		width:300px;
+		margin:15px;
+	   }
+.capaDropable{
+	   }
+.capaDragable{
+	width:270px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 3px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	   }
+.contenedorDropableInicio{
+			padding:10px;
+			border:solid 1px Gray;
+	   }
+.contenedorDropableVota{
+			padding:10px;
+			border:solid 1px Orange;
+	   }
+.dropOverClass{
+	background-color: #CCC;
+	   }
+	      
+	/*.amplio{
+		width: 100%;
+		border: 1px solid #666;
+		height: 100%;
+	}*/
+
+	   
+	   
+	   /*         -------------------                  */
+/* crear sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+/*estilos de la caja de usuarios*/
+
+#usuario{
+	padding: 8px;	
+}
+.imagen_avatar{
+	text-align: center;	
+}
+.letra_c_user{
+	font-size: 0.8em;
+	color: #999;	
+}
+.letra2_c_user{
+	color: #999;
+}
+.letra_c_user_red{
+	font-size: 0.9em;
+	color: #F30;
+}
+/*estilos de las tablas de datatable */
+table.dataTable tbody th, table.dataTable tbody td{
+	padding: 1px 2px;
+}
+
+
+/*posicionar las imagenes dentro de los imput*/
+.inner-addon{
+	position:relative;
+}
+
+.inner-addon .glyphicon{
+  position:absolute;
+  padding:10px;
+  pointer-events:none;
+}
+
+.left-addon .glyphicon{
+	left:0;
+}
+.left-addon .glyphicon{
+	padding-left:10px;
+}
+
+ #loading_usuarios_asigna{
+        float: left;
+        position: absolute;
+	    top: 10px;
+	    left: 50px;    
+        display: none;
+     }
