@@ -1,0 +1,70 @@
+ul.candidates{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+ul.candidates li{
+    list-style: none;   
+    background-color: #f8f8f8;
+    border: 1px solid #444444;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+}
+
+ul.candidates li:hover{
+    background-color: #b8d100;
+}
+
+ul.candidates li button{
+    float: right;
+    /*display: none;*/
+    bottom: 4px;
+    /*background-color: #444444;*/
+    color: #FFF;
+    margin-right: 5px;
+}
+ul.candidates li button.add-candidate{
+    padding: 5px 15px;    
+}
+ul.candidates li.empty button{
+    display: none;
+}
+
+ul.candidates li button:disabled{
+    background-color: #ccc; 
+}
+
+/**/
+
+ul.candidates_res{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+ul.candidates_res li.mas{
+    list-style: none;   
+    background-color: #b8d100;
+    border: 1px solid #444444;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+}
+
+ul.candidates_res li.fem{
+	list-style: none;
+	background-color: #CC33CC;
+	border: 1px solid #444444;
+	margin-bottom: 10px;
+	padding: 10px 20px 10px 10px;
+	position: relative;
+}
+
+ul.candidates_res li.ne{
+	list-style: none;
+	background-color: #CCCC33;
+	border: 1px solid #444444;
+	margin-bottom: 10px;
+	padding: 10px 20px 10px 10px;
+	position: relative;
+}

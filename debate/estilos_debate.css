@@ -1,0 +1,304 @@
+/* CSS Document */
+
+
+	/* 
+	 #contenido_dos_col{
+		height: 100%; 
+		 
+	 }*/
+	 .etiqueta_debate{
+	color: #808080;
+	font-size: 11px;
+	font-weight: bold;
+	float: left;
+	vertical-align: text-bottom;
+	line-height: 11px;
+	padding-top: 35px;
+	padding-left: 10px;
+	
+	 }
+	 
+     #wrapper{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	height: 100%;
+     }
+    /* #msg{
+        border: thin solid #B4BBCD !important;
+        padding: 5px;
+     }*/
+	
+
+     #wall{
+	/*width: 550px;*/
+	min-height: 200px;
+	border: solid thin #B4BBCD;
+	margin-top: 10px;
+	padding-top: 10px;
+     }
+	 
+	 
+	 #wrapper_votacion{
+	/*width: 400px;
+	margin-left: 5px;
+	margin-right: 5px;*/
+	/*float: right;*/
+	height: 100%;
+	/*border: solid thin #B4BBCD; */       	 
+	 }
+	 
+    /* #wall ul{
+        list-style: none;
+        font-size: 12px;
+        line-height: 20px;
+     }
+     #wall ul #date{
+        font-style: italic;
+        font-size: 11px;
+        color: #ccc;
+        padding-left: 5px;
+     }*/
+     #loading{
+        float: left;
+        position:relative;
+        top: 10px;
+        left: 450px;
+        display: none;
+     }
+	#loading_2{
+        float: left;
+        position:relative;
+        top: 10px;
+        left: 450px;
+        display: none;
+     }
+	/*UN DISEÑO DE CAJAS COMENTARIOS*/	 
+	
+	.titular-comentario {
+		/*width: 445px;
+		overflow: hidden;
+		float: right;
+		padding-top: 5px;
+		padding-right: 5px;
+		padding-bottom: 5px;
+		margin: 5px;*/	
+		
+		border-top-width: 1px;
+		border-right-width-value: 1px;
+		border-bottom-width: 1px;
+		border-left-width-value: 1px;
+		border-top-style: solid;
+		border-right-style-value: solid;
+		border-bottom-style: solid;
+		border-left-style-value: solid;
+		border-top-color: #e6e3e0;
+		border-right-color-value: #e6e3e0;
+		border-bottom-color: #e6e3e0;
+		border-left-color-value: #e6e3e0;
+		border-image-source: none;
+		border-image-slice: 100% 100% 100% 100%;
+		border-image-width: 1 1 1 1;
+		border-image-outset: 0 0 0 0;
+		border-image-repeat: stretch stretch;
+		margin-top: 0px;
+		margin-right: 5px;
+		margin-bottom: 10px;
+		margin-left: 70px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		padding-top: 5px;
+		padding-right: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+	}
+	
+	
+	.pico_caja
+	{
+		
+		border-left: 7px solid transparent;
+		border-top: 10px solid #e6e3e0;
+		border-right: 7px solid transparent;
+		margin-left: 85px;
+		height: 0;
+		width: 0;
+		margin-top: -10px;	
+		
+	}
+	
+	
+	.contenido-comentario {
+		border: 1px solid #D8D8D8;
+		color: #000000;	
+	}
+	
+	.fondo_mensaje {
+		background-color: #FFFFFF;
+		/*width: 530px;*/
+		overflow: hidden;
+		margin-left: 5px;
+		margin-right: 5px;
+		padding-top: 4px;
+		padding-right: 2px;
+		padding-bottom: 4;
+		padding-left: 2px;
+		border: solid thin #B4BBCD;
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
+	
+	.texto_mensaje {
+		font-family: "Lucida Sans Unicode";
+		font-size: 12px;
+		text-align: justify;
+		padding-top: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		color: #333;
+	}
+	.imagen_wall{
+		float: left;
+		padding: 7px;
+	}
+	.nik_debate{
+		font-size: 12px;
+		color: #333;
+		font-weight: bold;
+		float: left;
+	}
+	.fecha_debate{
+		font-size: 10px;
+		color: #333;
+		float: right;	
+	}
+	.nombre_debate{
+		font-size: 9px;
+		color: #666;	
+	}
+	.etiqueta_estado{
+		height: 20px;
+		float: right;
+		margin-right: 20px;
+		font-weight: bold;
+		margin-top: 10px;
+		color: #999;
+	}
+
+/*estilos de columna de votacion*/
+.titular-voto {
+	border-top-width: 1px;
+	border-right-width-value: 1px;
+	border-bottom-width: 1px;
+	border-left-width-value: 1px;
+	border-top-style: solid;
+	border-right-style-value: solid;
+	border-bottom-style: solid;
+	border-left-style-value: solid;
+	border-top-color: #e6e3e0;
+	border-right-color-value: #e6e3e0;
+	border-bottom-color: #e6e3e0;
+	border-left-color-value: #e6e3e0;
+	border-image-source: none;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-width: 1 1 1 1;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.fondo_voto {
+	background-color: #FFFFFF;
+	/*width: 380px;*/
+	overflow: hidden;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4;
+	padding-left: 2px;
+	border: solid thin #B4BBCD;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+.marca_votado{
+	font-weight: bold;
+	height: 40px;
+	border: thin solid #CCC;
+	background-color: #EBEBEB;
+	padding: 10px;
+}
+.info_voto{
+	color: #FC0;
+	text-align: center;
+	float: right;	
+}
+
+/*.boton_debate{
+        color: #fff;
+        font-size: 13px;
+        background-color: #5B74A8;
+        background-image: url("background.png");
+        background-position: 0 -98px;
+        background-repeat: no-repeat;
+        border-color: #29447E #29447E #1A356E;
+       border-style: solid;
+       border-width: 1px;
+       cursor: pointer;
+       display: inline-block;
+       font-weight: bold;
+       line-height: normal !important;
+       padding: 4px 6px 4px;
+       text-align: center;
+       text-decoration: none;
+       vertical-align: top;
+       white-space: nowrap;
+     }*/
+/*.caja_comentario{
+	border: thin solid #099;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+	background-image: url(../imagenes/comments2.png);
+	background-repeat: no-repeat;
+}*/
+.caja_informacion_debate{
+	text-align: justify;
+	
+	/*width: 937px;*/
+	padding: 20px;
+	float: right;
+}
+.resultados_grafica{
+	height: 200px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.resultados_donut{
+	height: 200px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+#columnaesq{
+	height: 700px;
+}
+
+.imagen_estado{
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+}
